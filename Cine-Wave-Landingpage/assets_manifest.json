@@ -1,0 +1,295 @@
+{
+  "project": "CineWave Premium Landingpage",
+  "created": "2026-11-16",
+  "images_count": 68,
+  "images": [
+    {
+      "file": "assets/artwork/aurora_nights_backdrop.jpg",
+      "width": 1600,
+      "height": 900,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/aurora_nights_poster.jpg",
+      "width": 800,
+      "height": 1200,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/ember_kingdom_backdrop.jpg",
+      "width": 1600,
+      "height": 900,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/ember_kingdom_poster.jpg",
+      "width": 800,
+      "height": 1200,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/last_tide_backdrop.jpg",
+      "width": 1600,
+      "height": 900,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/last_tide_poster.jpg",
+      "width": 800,
+      "height": 1200,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/midnight_run_backdrop.jpg",
+      "width": 1600,
+      "height": 900,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/midnight_run_poster.jpg",
+      "width": 800,
+      "height": 1200,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/neon_horizon_backdrop.jpg",
+      "width": 1600,
+      "height": 900,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/neon_horizon_poster.jpg",
+      "width": 800,
+      "height": 1200,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/orion_echoes_backdrop.jpg",
+      "width": 1600,
+      "height": 900,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/orion_echoes_poster.jpg",
+      "width": 800,
+      "height": 1200,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/silent_signal_backdrop.jpg",
+      "width": 1600,
+      "height": 900,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/artwork/silent_signal_poster.jpg",
+      "width": 800,
+      "height": 1200,
+      "type": "JPG",
+      "category": "artwork"
+    },
+    {
+      "file": "assets/devices/10_Windows_Desktop_1600x900.png",
+      "width": 1600,
+      "height": 900,
+      "type": "PNG",
+      "category": "devices"
+    },
+    {
+      "file": "assets/devices/11_Tablet_1200x900.png",
+      "width": 1200,
+      "height": 900,
+      "type": "PNG",
+      "category": "devices"
+    },
+    {
+      "file": "assets/icons/01_CineWave_Filmklappe_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "type": "PNG",
+      "category": "icons"
+    },
+    {
+      "file": "assets/icons/01_CineWave_Filmklappe_512.png",
+      "width": 512,
+      "height": 512,
+      "type": "PNG",
+      "category": "icons"
+    },
+    {
+      "file": "assets/icons/02_CineWave_Filmrolle_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "type": "PNG",
+      "category": "icons"
+    },
+    {
+      "file": "assets/icons/02_CineWave_Filmrolle_512.png",
+      "width": 512,
+      "height": 512,
+      "type": "PNG",
+      "category": "icons"
+    },
+    {
+      "file": "assets/icons/03_CineWave_Projektor_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "type": "PNG",
+      "category": "icons"
+    },
+    {
+      "file": "assets/icons/03_CineWave_Projektor_512.png",
+      "width": 512,
+      "height": 512,
+      "type": "PNG",
+      "category": "icons"
+    },
+    {
+      "file": "assets/icons/04_CineWave_Popcorn_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "type": "PNG",
+      "category": "icons"
+    },
+    {
+      "file": "assets/icons/04_CineWave_Popcorn_512.png",
+      "width": 512,
+      "height": 512,
+      "type": "PNG",
+      "category": "icons"
+    },
+    {
+      "file": "assets/marketing/CineWave_Android_Uebersicht.jpg",
+      "width": 717,
+      "height": 1338,
+      "type": "JPG",
+      "category": "marketing"
+    },
+    {
+      "file": "assets/marketing/CineWave_Icon_Uebersicht.jpg",
+      "width": 1060,
+      "height": 300,
+      "type": "JPG",
+      "category": "marketing"
+    },
+    {
+      "file": "assets/marketing/CineWave_Vorstellungsgrafik_1024x500.png",
+      "width": 1024,
+      "height": 500,
+      "type": "PNG",
+      "category": "marketing"
+    },
+    {
+      "file": "assets/screenshots/01_Home_1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "type": "PNG",
+      "category": "screenshots"
+    },
+    {
+      "file": "assets/screenshots/02_Filme_1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "type": "PNG",
+      "category": "screenshots"
+    },
+    {
+      "file": "assets/screenshots/03_Filmdetails_1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "type": "PNG",
+      "category": "screenshots"
+    },
+    {
+      "file": "assets/screenshots/04_Video_Player_1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "type": "PNG",
+      "category": "screenshots"
+    },
+    {
+      "file": "assets/screenshots/05_Serien_1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "type": "PNG",
+      "category": "screenshots"
+    },
+    {
+      "file": "assets/screenshots/06_Artwork_Studio_1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "type": "PNG",
+      "category": "screenshots"
+    },
+    {
+      "file": "assets/screenshots/07_Design_Studio_1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "type": "PNG",
+      "category": "screenshots"
+    },
+    {
+      "file": "assets/screenshots/08_Sammlungen_1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "type": "PNG",
+      "category": "screenshots"
+    },
+    {
+      "file": "assets/screenshots/09_Premium_1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "type": "PNG",
+      "category": "screenshots"
+    }
+  ],
+  "updated": "2026-11-16",
+  "app_screenshots": [
+    "design_drivein.jpg",
+    "design_galaxy.jpg",
+    "design_kinosaal.jpg",
+    "design_noir.jpg",
+    "design_ocean.jpg",
+    "design_synthwave.jpg",
+    "phone_design.jpg",
+    "phone_detail.jpg",
+    "phone_filme.jpg",
+    "phone_home.jpg",
+    "tablet_home.jpg",
+    "win_artwork.jpg",
+    "win_design.jpg",
+    "win_detail.jpg",
+    "win_feed_handy.jpg",
+    "win_feed_horizontal.jpg",
+    "win_feed_ordner.jpg",
+    "win_filme_arc.jpg",
+    "win_filme_flow.jpg",
+    "win_filme_grid.jpg",
+    "win_filme_shelf.jpg",
+    "win_geraete.jpg",
+    "win_home.jpg",
+    "win_player.jpg",
+    "win_player_holo.jpg",
+    "win_player_kino.jpg",
+    "win_serie.jpg",
+    "win_serien.jpg",
+    "win_shop.jpg",
+    "win_statistik.jpg",
+    "win_universe.jpg"
+  ],
+  "app_version": "0.2.1",
+  "main_icon": "assets/icons/04_CineWave_Popcorn_512.png"
+}
