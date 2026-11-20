@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datenschutzerklärung – My Lamp</title>
+    <style>
+        :root {
+            --bg-gradient: radial-gradient(circle at top, #151827 0, #050611 45%, #020307 100%);
+            --card-bg: rgba(18, 20, 35, 0.97);
+            --card-border: rgba(255, 255, 255, 0.06);
+            --accent: #4f8bff;
+            --accent-soft: rgba(79, 139, 255, 0.08);
+            --accent-strong: #ffd54a;
+            --text-main: #f7f7ff;
+            --text-muted: #b0b4d4;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 32px 16px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-main);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 18px;
+            padding: 24px 20px;
+            border: 1px solid var(--card-border);
+            box-shadow:
+                0 24px 60px rgba(0, 0, 0, 0.7),
+                0 0 0 1px rgba(255, 255, 255, 0.01);
+            backdrop-filter: blur(16px);
+        }
+
+        @media (min-width: 720px) {
+            .card {
+                padding: 32px 32px;
+            }
+        }
+
+        h1 {
+            font-size: clamp(1.8rem, 3vw, 2.1rem);
+            margin: 0 0 4px;
+            letter-spacing: 0.02em;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 18px;
+        }
+
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            background: var(--accent-soft);
+            color: var(--accent);
+            margin-bottom: 10px;
+        }
+
+        .pill-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: var(--accent);
+        }
+
+        .section {
+            margin-bottom: 22px;
+        }
+
+        .section:last-of-type {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 1.05rem;
+            margin: 0 0 8px;
+        }
+
+        h3 {
+            font-size: 0.95rem;
+            margin: 14px 0 6px;
+        }
+
+        p {
+            margin: 0 0 6px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        ul {
+            margin: 4px 0 8px 18px;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 3px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        a {
+            color: var(--accent-strong);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            border-radius: 12px;
+            padding: 10px 12px;
+            background: radial-gradient(circle at top left, rgba(255, 213, 74, 0.12), transparent 55%);
+            border: 1px solid rgba(255, 213, 74, 0.35);
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-bottom: 18px;
+        }
+
+        .strong {
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .footer-note {
+            margin-top: 18px;
+            font-size: 0.75rem;
+            color: #777ba5;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <div class="pill">
+            <span class="pill-dot"></span>
+            Datenschutzerklärung · My Lamp
+        </div>
+
+        <h1>Datenschutzerklärung</h1>
+        <div class="subtitle">Stand: 03.12.2025</div>
+
+        <div class="highlight-box">
+            „My Lamp“ nutzt die Geräteleuchte (LED) zur Bereitstellung einer Taschenlampenfunktion.
+            Es werden keine Inhalte wie Fotos oder Dateien ausgelesen oder gespeichert.
+        </div>
+
+        <div class="section">
+            <h2>1. Verantwortlicher</h2>
+            <p>
+                Verantwortlich für die Datenverarbeitung im Zusammenhang mit dieser App ist:
+            </p>
+            <p>
+                <span class="strong">DEIN NAME / IMPRESSUMSNAME</span><br />
+                E-Mail: <span class="strong">DEINE KONTAKT-E-MAIL</span>
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>2. Allgemeines zur Datennutzung</h2>
+            <p>
+                Die App „My Lamp“ ist eine Taschenlampen-App, die lediglich die LED-/Blitzfunktion
+                Ihres Gerätes nutzt, um Licht ein- und auszuschalten. Es werden keine personenbezogenen
+                Daten wie Fotos, Kontakte oder Standort ausgelesen oder lokal gespeichert.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>3. Welche Daten werden verarbeitet?</h2>
+
+            <h3>3.1. Lokale Einstellungen</h3>
+            <p>
+                Die App kann einige einfache Einstellungen lokal auf Ihrem Gerät speichern, z. B.:
+            </p>
+            <ul>
+                <li>App-Einstellungen (z. B. Dark Mode, Vollbildmodus),</li>
+                <li>Premium-Status (z. B. „Werbung entfernt“),</li>
+                <li>Anzeige von Hinweisen oder Bannern.</li>
+            </ul>
+            <p>
+                Diese Daten verbleiben auf Ihrem Gerät und werden nicht an mich oder Dritte übertragen.
+            </p>
+
+            <h3>3.2. Zugriff auf die Geräteleuchte</h3>
+            <p>
+                Zur Bereitstellung der Taschenlampenfunktion greift die App auf die LED/Blitz-Funktion
+                Ihres Gerätes zu. Es werden dabei keine Bilddaten aufgezeichnet oder gespeichert.
+            </p>
+
+            <h3>3.3. Werbedienst: Google AdMob</h3>
+            <p>
+                In der kostenlosen Version der App wird Werbung über <span class="strong">Google AdMob</span> angezeigt.
+                Verantwortlicher Dienstanbieter ist:
+            </p>
+            <p>
+                Google Ireland Limited<br />
+                Gordon House, Barrow Street, Dublin 4, Irland.
+            </p>
+            <p>AdMob kann unter anderem folgende Daten verarbeiten:</p>
+            <ul>
+                <li>Geräteinformationen (z. B. Modell, Betriebssystemversion),</li>
+                <li>Werbe-ID des Geräts (Advertising ID),</li>
+                <li>IP-Adresse (in der Regel gekürzt/anonymisiert),</li>
+                <li>Nutzungsdaten (z. B. Anzeigenaufrufe, Klicks, Häufigkeit).</li>
+            </ul>
+            <p>
+                Details zur Datenverarbeitung durch Google finden Sie in der
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+                    Datenschutzerklärung von Google
+                </a>.
+            </p>
+
+            <h3>3.4. In-App-Käufe (Google Play Billing)</h3>
+            <p>
+                In-App-Käufe wie z. B. „Werbung entfernen / Premium“ werden über
+                <span class="strong">Google Play</span> abgewickelt. Dabei verarbeitet Google u. a.:
+            </p>
+            <ul>
+                <li>Ihr Google-Konto,</li>
+                <li>Kauf- und Transaktionsdaten,</li>
+                <li>Zahlungsinformationen.</li>
+            </ul>
+            <p>
+                Ich selbst erhalte lediglich die Information, dass ein Kauf erfolgreich war und
+                Premium in der App freigeschaltet werden kann. Zahlungsdaten werden nicht an mich übermittelt.
+            </p>
+            <p>
+                Weitere Informationen finden Sie unter:<br />
+                <a href="https://support.google.com/googleplay/answer/1050566"
+                   target="_blank" rel="noopener noreferrer">
+                    https://support.google.com/googleplay/answer/1050566
+                </a>
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>4. Rechtsgrundlagen</h2>
+            <p>
+                Die Nutzung der App und der Zugriff auf die Geräteleuchte erfolgt auf Grundlage von
+                Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung – Bereitstellung der App-Funktionen).
+            </p>
+            <p>
+                Die Einblendung von Werbung und die Nutzung von In-App-Käufen stützt sich auf
+                Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an Finanzierung und Betrieb der App)
+                sowie ggf. Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), sofern diese von Google
+                bzw. dem System abgefragt wird.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>5. Keine Weitergabe personenbezogener Inhalte</h2>
+            <p>
+                Die App „My Lamp“ liest keine Inhalte wie Fotos, Kontakte, Nachrichten oder Dateien aus
+                und übermittelt solche Inhalte auch nicht an mich oder Dritte.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>6. Speicherdauer</h2>
+            <p>
+                Lokale Einstellungen (z. B. Premium-Status, Vollbildmodus) bleiben auf Ihrem Gerät gespeichert,
+                bis Sie:
+            </p>
+            <ul>
+                <li>die App deinstallieren oder</li>
+                <li>die App-Daten über die Systemeinstellungen Ihres Gerätes löschen.</li>
+            </ul>
+            <p>
+                Daten, die durch Google im Rahmen von Werbung oder In-App-Käufen verarbeitet werden,
+                unterliegen den jeweiligen Speicherfristen von Google.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>7. Ihre Rechte (DSGVO)</h2>
+            <p>Sie haben im Rahmen der DSGVO insbesondere folgende Rechte:</p>
+            <ul>
+                <li>Recht auf Auskunft (Art. 15 DSGVO),</li>
+                <li>Recht auf Berichtigung (Art. 16 DSGVO),</li>
+                <li>Recht auf Löschung (Art. 17 DSGVO),</li>
+                <li>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO),</li>
+                <li>Recht auf Widerspruch (Art. 21 DSGVO),</li>
+                <li>Recht auf Datenübertragbarkeit (Art. 20 DSGVO).</li>
+            </ul>
+            <p>
+                Soweit die Verarbeitung auf einer Einwilligung beruht, haben Sie das Recht,
+                diese Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen.
+            </p>
+            <p>
+                Bitte beachten Sie, dass Sie Ihre Rechte hinsichtlich der von Google verarbeiteten Daten
+                direkt gegenüber Google geltend machen müssen.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>8. Kontakt für Datenschutzanfragen</h2>
+            <p>
+                Wenn Sie Fragen zum Datenschutz in dieser App haben oder Ihre Rechte ausüben möchten,
+                können Sie mich unter folgenden Kontaktdaten erreichen:
+            </p>
+            <p>
+                <span class="strong">Marcel S. / Ehhm.s</span><br />
+                E-Mail: <span class="strong">flondy.dev@gmail.com</span>
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>9. Änderungen dieser Datenschutzerklärung</h2>
+            <p>
+                Ich behalte mir vor, diese Datenschutzerklärung anzupassen, falls die App oder
+                rechtliche Vorgaben sich ändern. Die jeweils aktuelle Version wird an dieser Stelle
+                veröffentlicht.
+            </p>
+        </div>
+
+        <div class="footer-note">
+            Hinweis: Diese Datenschutzerklärung dient als vereinfachte, praxisnahe Vorlage und
+            stellt keine Rechtsberatung dar.
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
