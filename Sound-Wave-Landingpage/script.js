@@ -1,0 +1,7 @@
+'use strict';
+const menu=document.getElementById('menu-button');
+if(menu){menu.addEventListener('click',()=>{const open=document.getElementById('nav-links').classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Menü schließen':'Menü öffnen');});document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>{document.getElementById('nav-links').classList.remove('open');menu.setAttribute('aria-expanded','false');}));}
+const choices=document.querySelectorAll('.icon-choice');
+choices.forEach(button=>button.addEventListener('click',()=>{choices.forEach(b=>{b.classList.remove('selected');b.setAttribute('aria-pressed','false')});button.classList.add('selected');button.setAttribute('aria-pressed','true');document.getElementById('main-icon').src=button.dataset.icon;document.getElementById('main-icon-name').textContent=button.dataset.name;}));
+const dialog=document.getElementById('image-dialog'), modalimg=document.getElementById('dialog-image');
+if(dialog&&typeof dialog.showModal==='function'){document.querySelectorAll('.shot').forEach(button=>button.addEventListener('click',()=>{modalimg.src=button.dataset.full;modalimg.alt=button.querySelector('img')?.alt||'App-Screenshot';dialog.showModal();}));document.getElementById('dialog-close').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});}

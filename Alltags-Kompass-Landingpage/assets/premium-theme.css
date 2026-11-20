@@ -1,0 +1,102 @@
+
+/* AlltagsKompass — Premium Sunset Edition
+   Visual update aligned with the concept screenshots.
+   Preserves existing functional elements, demo interactions and legal-page links. */
+:root{--bg:#090d28;--bg-2:#111338;--panel:#232053;--line:rgba(220,190,255,.22);--text:#fcf8ff;--muted:#c9c0e0;--teal:#6fe9dc;--gold:#ffd6a3;--orange:#ffab83;--bright:#fff5ec;--violet:#bb91ff;--shadow:0 28px 84px rgba(4,4,30,.52)}
+html{scroll-padding-top:88px}
+body{background:#0b0d2b;color:var(--text)}
+::selection{background:#b78aff;color:#10132e}
+a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline-color:#d5a6ff}
+.site-header{background:rgba(8,10,35,.84);border-bottom:1px solid rgba(212,174,255,.2);box-shadow:0 8px 30px #06062238}
+.brand img,.end-icon{border-radius:13px;box-shadow:0 0 0 1px #ffcdad55,0 7px 26px #a167e85c}
+.brand span span{background:linear-gradient(110deg,#fff0cd,#ffcba2 55%,#f3a4dc);-webkit-background-clip:text;background-clip:text;color:transparent}
+.navlinks{color:#e7ddf3}.navlinks a:hover,.foot-links a:hover{color:#ffce9d}
+.status{background:linear-gradient(130deg,#5b3d9848,#ea83ba1c);color:#f5d9ff;border:1px solid #c98af95a}
+.status i{background:#c38cff;box-shadow:0 0 12px #b476f9}
+.mobile-toggle{background:#25204b;border-color:#cba0ff55}
+.hero{isolation:isolate;padding:110px 0 110px;background:linear-gradient(91deg,rgba(8,10,35,.98),rgba(15,13,43,.91) 40%,rgba(27,19,65,.57) 80%,rgba(11,10,38,.68)),url("sunrise-landscape.svg") center bottom/cover no-repeat}
+.hero:before{right:-155px;top:-185px;width:650px;height:650px;border-color:#f8d3ae35;box-shadow:0 0 0 75px #facbad04,0 0 0 160px #f6b7fe04;z-index:-1}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:230px;pointer-events:none;background:linear-gradient(0deg,#0c102f,transparent);z-index:-1}
+.hero-grid{grid-template-columns:1.02fr 1.06fr;gap:50px}
+.eyebrow,.pill-label{color:#e8aaff}.eyebrow:before{background:linear-gradient(90deg,#cb81ff,#ffd39d)}
+h1{font-size:clamp(49px,5.5vw,80px);letter-spacing:-4.3px;line-height:1.055}
+h1 .shine{background:linear-gradient(110deg,#ffe8bf,#ffb887 60%,#f19ce6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.intro{color:#e0d8f2}
+.btn{border-radius:16px;box-shadow:inset 0 1px #fff4}
+.btn-primary{background:linear-gradient(110deg,#ffdcaa,#ffa981 58%,#e9a5da);color:#1c1835;border:1px solid #fff0d77e;box-shadow:0 10px 29px #ff958540,0 0 24px #dd8bf026}
+.btn-primary:hover{box-shadow:0 14px 37px #ff958566,0 0 34px #e9a5da50}
+.btn-ghost{background:linear-gradient(135deg,#ab7af82b,#ff9acb13);border-color:#e4c2ff70}
+.btn-ghost:hover{background:#a968e33e}
+.mininotes{color:#e0d7ef}.mininotes b{color:#76ead4}
+.release{color:#d1c9e3;border-left-color:#ffd19c;padding:10px 14px;background:#1d1a4566;border-radius:0 12px 12px 0}.release strong{color:#fff4db}
+.hero-art{min-height:660px}
+.orb{width:560px;height:560px;filter:blur(17px);background:radial-gradient(circle at 52% 47%,#ffad827b,#a561e354 40%,#356bbd33 63%,transparent 76%)}
+.orbit{border-color:#f9c0f144;width:560px;height:560px}
+.phone{width:336px;height:625px;background:linear-gradient(130deg,#d8b4ff,#5552a5 28%,#24265c 63%,#f2bd9b);border:2px solid #fcd6e6af;padding:8px;box-shadow:0 38px 90px #03021ea6,0 0 48px #ad63ee50,16px 10px 29px #ee9d9b35}
+.phone:before{background:#c8b8fb}
+.screen{padding-top:29px;background:linear-gradient(180deg,#261950,#191b4c 50%,#111535)}
+.screen:before{left:0;top:0;width:100%;height:210px;background:linear-gradient(180deg,#15143a00,#191949df 95%),url("sunrise-landscape.svg") center 67%/cover no-repeat}
+.screen-notch{background:#0c0c2a}.screen-top small{color:#fbe3ca;font-weight:800;letter-spacing:1px}.screen-top strong{text-shadow:0 3px 12px #17103eb8}
+.demo-label{color:#ebdcfb}
+.p-card{background:linear-gradient(135deg,#fffaff,#ede7fb);color:#302448;border:1px solid #ffffff9c;box-shadow:0 8px 21px #0707254a}
+.p-card h4 span:last-child,.p-card small,.p-recipe span{color:#6d6487}
+.task{border-color:#e8dcf0}.task input,.mini-list input{accent-color:#9d5bce}
+.progress-track{background:#ded5ed}.progress-track div{background:linear-gradient(90deg,#a47cff,#72e3d2)}
+.p-food{background:linear-gradient(135deg,#ffd4a7,#f78d94)}
+.p-nav{background:#201a50f5;border-color:#d2b0ff4d}.p-nav button{color:#c3b9e5}.p-nav button[aria-selected=true]{background:linear-gradient(135deg,#ab6be648,#f6a2c22b);color:#ffe6bb;box-shadow:0 0 16px #c877ef31}
+.floating{background:linear-gradient(130deg,#3b2679ef,#211c55f5);border-color:#e3b7ff65;box-shadow:0 20px 48px #03021eaa,0 0 26px #e27bf61a}
+.floating .micro{color:#d9c0f1}.float-a .dots i{background:#a47af7}.float-a .dots i:last-child{background:#514886}.float-b .icon-dot{color:#ffe1bf;background:#ffdaab25}
+.section .desc{color:#c6c1dc}
+.light-section{background:radial-gradient(ellipse at 0% 0%,#54377e75,transparent 50%),radial-gradient(ellipse at 100% 90%,#2d728260,transparent 48%),linear-gradient(160deg,#161439,#10132e);color:#fffaff;border-top:1px solid #d3b3fb1c}
+.light-section .desc{color:#cbc3e1}.light-section .pill-label{color:#eeaffd}
+.features-grid{gap:20px}
+.f-card{position:relative;overflow:hidden;min-height:225px;padding:25px 22px;border-radius:23px;border:1px solid #dac5ff3b;color:#fcf7ff;background:linear-gradient(140deg,#51418387,#231f58ed);box-shadow:0 14px 32px #05061f54,inset 0 1px #fff2;transition:transform .25s,box-shadow .25s}
+.f-card:before{content:"";position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,#ffcf9c,#d78eff,#77e6dd)}
+.f-card:nth-child(2n){background:linear-gradient(145deg,#4c377b,#1b1d4b)}
+.f-card:nth-child(3n){background:linear-gradient(145deg,#214e72,#19224b)}
+.f-card:nth-child(4n){background:linear-gradient(145deg,#76435d,#271d55)}
+.f-card:hover{transform:translateY(-6px);box-shadow:0 20px 44px #05051fa8,0 0 20px #ae79fa30}
+.f-icon{background:linear-gradient(140deg,#ffffff29,#ffffff10)!important;border:1px solid #ffffff3f;box-shadow:inset 0 1px #ffffff35,0 5px 18px #120c3966}
+.f-card p{color:#d4cfe7}.features-end{color:#b5acd0}
+#ablauf{background:radial-gradient(ellipse 55% 60% at 100% 30%,#5e34844d,transparent),#10132f}
+.step{background:linear-gradient(130deg,#4d337b4d,#24204e9c);border-color:#bda4ea39;box-shadow:inset 0 1px #fff1}
+.step-no{background:linear-gradient(140deg,#ffe2b7,#faa67e);color:#302344}
+.step p{color:#c5bfdb}
+.sheet{background:linear-gradient(150deg,#fff4f0,#e8ddf6);color:#302449;box-shadow:0 35px 74px #04042196,0 0 25px #a66ce736}
+.sheet:before{border-color:#b6a1dc53}.sheet-top{border-color:#c9b9df}.sheet-top em,.week div,.sheet-item small,.sheet-foot{color:#746489}
+.week b{background:#e8ddf7;color:#675486}.week .current b{background:linear-gradient(135deg,#996bea,#e18fc1);color:white}.sheet-item{border-color:#cdbfe066}.sheet-item i{color:#9868d0}.ring{background:conic-gradient(#a46deb 0 65%,#d7c7ea 65%)}.ring:after{background:#f5edf9;color:#7852a6}
+.experience{background:radial-gradient(ellipse 65% 80% at 100% 30%,#6f34865c,transparent 70%),#151438}
+.activity-box{background:linear-gradient(150deg,#fffafe,#f0e9fc);color:#322748;box-shadow:0 30px 75px #05041fa3}
+.activity-box p,.activity-end{color:#776b8c}.activity-switch{background:#e8def6}.activity-switch button{color:#78658f}
+.activity-switch button[aria-selected=true]{background:#c5acef;color:#412767}
+.activity-list li{border-color:#dfd3ef}.activity-list .bubble{background:#eadcf7}
+.tag-row span{color:#e4d2f4;border-color:#c49de650;background:#ffffff08}
+.privacy{background:radial-gradient(ellipse at 0% 30%,#56326c58,transparent 55%),linear-gradient(150deg,#181438,#141738);color:#fcf8ff}
+.privacy .desc{color:#c7bedc}.privacy .pill-label{color:#e8aaff}
+.privacy-art{background:radial-gradient(circle at 45% 40%,#9968d8,#42326f 48%,#1b1a4d 83%);box-shadow:0 25px 65px #09051dbd,0 0 28px #a05ce244}
+.privacy-mini{background:#f9ecffeb;border-color:#ffe8f9;color:#533769}
+.privacy-item .check{background:#784fa1;color:#ffe5fc}.privacy-item span{color:#c6badf}.warning{color:#bdafd7;border-color:#ffbf91}
+.faq-section{background:radial-gradient(ellipse at 90% 10%,#2f6f8255,transparent 45%),#121632;color:#fcf8ff}
+.faq-section .desc{color:#c9c0df}
+.faq details{background:linear-gradient(135deg,#282454,#1b2248);border-color:#c5a5f84b}
+.faq summary{color:#fcf7ff}.faq summary:after{color:#efb0ff}.faq details p{color:#c7bbdd}
+.end-section{background:radial-gradient(ellipse 65% 76% at 50% 105%,#9b4b9266,transparent),linear-gradient(155deg,#181339,#0b102a);border-top:1px solid #d4a1e62c}
+.end-section p{color:#d4c5e6}.end-section small{color:#b2a5cc}
+.site-footer{background:#080b23;border-color:#c7a1ee2d}.foot-row p{color:#a9a1c7}.foot-links{color:#ccc0df}
+.concept-section{background:linear-gradient(145deg,#0c1030,#171542);padding:96px 0;border-top:1px solid #d8b5ff24}
+.concept-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:19px}
+.concept-card{position:relative;overflow:hidden;border:1px solid #d6b3ff58;border-radius:27px;padding:27px;min-height:340px;background:linear-gradient(145deg,#48306e,#1b1c50);box-shadow:0 20px 48px #05041e85}
+.concept-card:nth-child(2){background:linear-gradient(145deg,#705078,#2a204e)}.concept-card:nth-child(3){background:linear-gradient(145deg,#24637a,#182051)}
+.concept-card:before{content:"";position:absolute;width:220px;height:220px;right:-90px;top:-120px;background:radial-gradient(circle,#ffc18a75,transparent 72%);border-radius:50%}
+.concept-kicker{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#ffe1b1;font-weight:800}
+.concept-card h3{font-size:23px;letter-spacing:-.8px;margin:11px 0 8px}
+.concept-card p{font-size:13px;color:#eee0fa;line-height:1.65;max-width:300px}
+.concept-ui{margin-top:25px;border-radius:17px;background:#fff9ffe8;color:#382750;padding:16px;box-shadow:0 9px 26px #08072452;min-height:144px}
+.concept-ui strong{font-size:12px}.concept-ui div{margin-top:9px;font-size:11px;display:flex;gap:8px;align-items:center}
+.concept-ui .dot{width:10px;height:10px;border-radius:4px;background:#a374e3;flex-shrink:0}.concept-ui .dot.orange{background:#eeb078}.concept-ui .dot.teal{background:#5ccbbb}
+.concept-ui .mini-track{height:8px;border-radius:10px;background:#e9def0;overflow:hidden;display:block}.concept-ui .mini-track i{display:block;height:100%;width:58%;background:linear-gradient(90deg,#bc8cf8,#72dcd4);border-radius:10px}
+.concept-section .sect-center{margin-bottom:40px}
+@media(max-width:1080px){.hero-grid{gap:18px}.hero-art{min-height:560px}.phone{transform:scale(.90) rotate(4deg)}.concept-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.concept-card{padding:22px}}
+@media(max-width:780px){.navlinks{background:#141335;box-shadow:0 18px 32px #06041b80}.hero{padding:72px 0 57px;background-position:center,bottom center}.hero-grid{grid-template-columns:1fr}.hero-art{min-height:550px}.phone{transform:scale(.80) rotate(4deg)}h1{font-size:clamp(44px,9vw,65px);letter-spacing:-2.5px}.concept-grid{grid-template-columns:1fr}.concept-card{min-height:0}.concept-section{padding:70px 0}}
+@media(max-width:480px){.phone{transform:scale(.70) rotate(4deg)}.hero-art{min-height:515px}.concept-section{padding:62px 0}.concept-card{padding:22px}}
+@media(prefers-reduced-motion:reduce){.f-card{transition:none!important}}
